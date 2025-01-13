@@ -1,0 +1,40 @@
+
+#Part 1
+
+# Use proxy numbers 50 and 23
+
+# Define the first number
+number1 = 50
+
+# Define the second number
+number2 = 23
+
+# Calculate the sum of the numbers
+sum_result = number1 + number2
+print("The sum of the numbers is:", sum_result)
+
+# Calculate the difference of the numbers
+difference_result = number1 - number2
+print("The difference of the numbers is:", difference_result)
+
+
+#Part 2
+
+# Use proxy numbers 150 and 200
+
+# Define the first number
+number1 = 150
+
+# Define the second number
+number2 = 200
+
+# Calculate the product of the numbers
+product = number1 * number2
+print("The product of the numbers is:", product)
+
+# Check if the second number is not zero before division
+if number2 != 0:
+    quotient = number1 / number2
+    print("The quotient of the numbers is:", quotient)
+else:
+    print("Division by zero is not allowed.")
